@@ -387,6 +387,41 @@ footer {
   gap: 4%;
 }
 
+
+
+.legal-info {
+  margin-top: 80px;
+  padding: 40px 100px;
+  background-color: #0a0a0a;
+  border-top: 1px solid #333;
+  color: #dddddd;
+  font-family: inter, sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.legal-info h2 {
+  font-family: a4speed;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.legal-info p {
+  margin-bottom: 10px;
+}
+
+.legal-info a {
+  color: #ffde7a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.legal-info a:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -623,5 +658,9 @@ footer {
     width: 90%;
     margin: 0 auto;
   }
+
+  .legal-info {
+  padding: 5%;
+}
 
 }
